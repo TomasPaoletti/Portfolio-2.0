@@ -1,13 +1,13 @@
-import { Nav } from "./component/nav/Nav";
-import { Content } from "./component/Content";
+import NavBarColor from "./component/NavBarColor";
+import Content from "./component/Content";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen h-screen flex-col items-center justify-center">
+    <div className="flex h-screen min-h-screen flex-col items-center justify-center">
       <header>
-        <Nav />
+        <NavBarColor />
       </header>
-      <main className="flex items-center justify-center h-4/6">
+      <main className="flex h-4/6 items-center justify-center">
         <Content />
       </main>
     </div>

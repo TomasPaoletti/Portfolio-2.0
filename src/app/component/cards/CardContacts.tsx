@@ -9,7 +9,7 @@ interface CardProps {
   icon: IconType;
 }
 
-const Card: React.FC<CardProps> = ({ title, subtitle, route, icon: Icon }) => {
+const CardContacts: React.FC<CardProps> = ({ title, subtitle, route, icon: Icon }) => {
   return (
     <div className="border-animate relative flex h-2/4 w-3/4 flex-col items-center justify-center rounded-xl border-0 bg-black p-4">
       {route ? (
@@ -25,4 +25,4 @@ const Card: React.FC<CardProps> = ({ title, subtitle, route, icon: Icon }) => {
   );
 };
 
-export default Card;
+export default CardContacts;

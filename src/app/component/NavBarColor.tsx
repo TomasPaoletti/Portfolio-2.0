@@ -1,7 +1,7 @@
-import { nav } from "../../lib/nav";
+import { nav } from "../utils/nav";
 import Link from "next/link";
 
-export const Nav = () => {
+const NavBarcolor = () => {
   return (
     <nav className="text-center">
       <ul className="flex flex-row gap-10">
@@ -17,3 +17,5 @@ export const Nav = () => {
     </nav>
   );
 };
+
+export default NavBarcolor;

@@ -6,12 +6,7 @@ export const nav = [
   },
   {
     id: 2,
-    name: "Proyectos",
-    route: "proyects",
-  },
-  {
-    id: 3,
     name: "Contacto",
     route: "contact",
-  },
+  }
 ];
