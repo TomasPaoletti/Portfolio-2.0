@@ -1,7 +1,7 @@
 import Image from "next/image";
 import me from "../../../public/me.jpeg";
 
-const Content = () => {
+const Bio = () => {
   return (
     <div className="flex w-8/12 flex-row justify-around">
       <Image
@@ -27,4 +27,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default Bio;

@@ -1,5 +1,5 @@
-import NavBarColor from "./component/NavBarColor";
-import Content from "./component/Content";
+import NavBarColor from "./component/navBar/NavBarColor";
+import Bio from "./component/Bio";
 
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
         <NavBarColor />
       </header>
       <main className="flex h-4/6 items-center justify-center">
-        <Content />
+        <Bio />
       </main>
     </div>
   );

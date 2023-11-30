@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { nav } from "../utils/nav";
+import { nav } from "../../utils/nav";
 import { MdArrowBack } from "react-icons/md";
 
 const NavBar = () => {

@@ -1,4 +1,4 @@
-import { nav } from "../utils/nav";
+import { nav } from "../../utils/nav";
 import Link from "next/link";
 
 const NavBarcolor = () => {

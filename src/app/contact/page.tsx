@@ -2,7 +2,7 @@ import { FaGithub } from "react-icons/fa6";
 import { ImLinkedin } from "react-icons/im";
 import { MdEmail } from "react-icons/md";
 import CardContacts from "../component/cards/CardContacts";
-import NavBar from "../component/NavBar";
+import NavBar from "../component/navBar/NavBar";
 
 const Contact = () => {
   return (
