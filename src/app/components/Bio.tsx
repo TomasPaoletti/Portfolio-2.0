@@ -1,9 +1,14 @@
 import Image from "next/image";
 import me from "../../../public/me.jpeg";
+import Particles from "./particles";
 
 const Bio = () => {
   return (
     <div className="flex w-full flex-col items-center gap-8 md:flex-row md:justify-around md:w-3/4">
+      <Particles
+        className="animate-fade-in absolute inset-0 -z-10"
+        quantity={100}
+      />
       <Image
         src={me}
         alt="logo"

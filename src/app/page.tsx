@@ -1,5 +1,5 @@
-import NavBarColor from "./component/navBar/NavBarColor";
-import Bio from "./component/Bio";
+import NavBarColor from "./components/navBar/NavBarColor";
+import Bio from "./components/Bio";
 
 export default function Home() {
   return (
