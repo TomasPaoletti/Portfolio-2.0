@@ -9,7 +9,7 @@ import {
 
 const Experience = () => {
   return (
-    <div className="flex h-full md:h-screen w-screen max-w-screen flex-col">
+    <div className="max-w-screen flex h-full w-screen flex-col md:h-screen">
       <Particles
         className="animate-fade-in absolute inset-0 -z-10"
         quantity={100}
@@ -24,7 +24,7 @@ const Experience = () => {
             primary={true}
           />
         </div>
-        <div className="flex flex-col items-center md:gap-10 md:h-[65%] md:max-h-[65%] md:w-[70%]">
+        <div className="flex flex-col items-center md:h-[65%] md:max-h-[65%] md:w-[70%] md:gap-10">
           <CardProyect
             title="ChatBot"
             subtitle="Frontend developer"

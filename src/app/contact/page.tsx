@@ -13,7 +13,7 @@ const Contact = () => {
         quantity={100}
       />
       <NavBar />
-      <div className="grid grid-cols-1 place-items-center justify-center gap-16 mb-12 md:grid-cols-2 md:h-screen md:w-screen md:gap-0 lg:h-screen lg:w-screen lg:grid-cols-3">
+      <div className="mb-12 grid grid-cols-1 place-items-center justify-center gap-16 md:h-screen md:w-screen md:grid-cols-2 md:gap-0 lg:h-screen lg:w-screen lg:grid-cols-3">
         <CardContacts
           title="TomasPaoletti"
           subtitle="Github"

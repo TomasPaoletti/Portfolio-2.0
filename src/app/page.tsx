@@ -7,7 +7,7 @@ export default function Home() {
       <header>
         <NavBarColor />
       </header>
-      <main className="flex h-auto items-center justify-center md:h-4/6">
+      <main className="flex h-[80%] items-center justify-center md:h-4/6">
         <Bio />
       </main>
     </div>

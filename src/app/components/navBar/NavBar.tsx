@@ -4,7 +4,6 @@ import { nav } from "../../utils/nav";
 import { MdArrowBack } from "react-icons/md";
 
 const NavBar = () => {
- 
   return (
     <div className="flex w-screen flex-row justify-between p-4">
       <Link href="/" className="text-gray-500">
