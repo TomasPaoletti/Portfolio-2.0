@@ -3,7 +3,7 @@ import me from "../../../public/me.jpeg";
 
 const Bio = () => {
   return (
-    <div className="flex w-8/12 flex-row justify-around">
+    <div className="flex w-full flex-col items-center gap-8 md:flex-row md:justify-around md:w-3/4">
       <Image
         src={me}
         alt="logo"
@@ -12,15 +12,16 @@ const Bio = () => {
         priority
         className=" rounded-full"
       />
-      <div className="flex w-[67%] flex-col items-center justify-between">
-        <h1 className="text-3xl font-bold">Tomas Paoletti Velado</h1>
-        <p>
-          ¡Hola! Mi nombre es Tomás y soy desarrollador Frontend. Después de
-          trabajar 10 años en mi propio taller mecánico, decidí dar un giro a mi
-          vida y sumergirme en el mundo IT. Así descubrí el desarrollo Front que
-          me conquistó automáticamente. En este portfolio podrán ver algunos
-          proyectos en donde trabajé y pusieron a prueba mis habilidades. Muchas
-          gracias por estar aquí
+      <div className="flex w-2/3 flex-col items-center justify-between gap-8">
+        <h1 className="text-3xl font-bold text-center">Tomas Paoletti Velado</h1>
+        <p className="text-start">
+          ¡Hola! Mi nombre es Tomás y soy desarrollador Frontend con amplia
+          experiencia en las tecnologías React, Next, React Native y Expo. Poseo
+          una destacada habilidad para la comunicación y colaboración efectiva
+          con el equipo. Mi personalidad proactiva e inquisitiva me impulsa a
+          mantenerme al tanto de las últimas tendencias tecnológicas, asegurando
+          así la creación y mantenimiento de proyectos sólidos y altamente
+          escalables. Actualmente trabajando en Check-in Scan.
         </p>
       </div>
     </div>

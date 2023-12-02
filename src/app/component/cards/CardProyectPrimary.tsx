@@ -17,7 +17,7 @@ const CardProyectPrimary: FC<CardProyectsPrimaryProps> = ({
       <h4 className="text-sm font-semibold text-gray-500">{subtitle}</h4>
       <ul className="ml-5 list-disc">
         {rolesList.map((role) => (
-          <li className="" key={role.id}>
+          <li key={role.id}>
             {role.text}
           </li>
         ))}

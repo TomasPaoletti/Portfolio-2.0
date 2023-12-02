@@ -6,9 +6,9 @@ import NavBar from "../component/navBar/NavBar";
 
 const Contact = () => {
   return (
-    <div className="flex h-screen w-screen flex-col items-center justify-center">
+    <div className="flex h-full w-screen flex-col items-center justify-center md:h-screen">
       <NavBar />
-      <div className="grid h-screen w-screen grid-cols-3 place-items-center gap-20">
+      <div className="grid grid-cols-1 place-items-center justify-center gap-16 mb-12 md:grid-cols-2 md:h-screen md:w-screen md:gap-0 lg:h-screen lg:w-screen lg:grid-cols-3">
         <CardContacts
           title="TomasPaoletti"
           subtitle="Github"

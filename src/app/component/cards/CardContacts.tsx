@@ -11,7 +11,7 @@ interface CardProps {
 
 const CardContacts: React.FC<CardProps> = ({ title, subtitle, route, icon: Icon }) => {
   return (
-    <div className="border-animate relative flex h-2/4 w-3/4 flex-col items-center justify-center rounded-xl border-0 bg-black p-4">
+    <div className="border-animate relative flex h-60 w-80 flex-col items-center justify-center rounded-xl border-0 bg-black p-4 md:h-3/4 md:w-3/4 lg:h-2/4 lg:w-80">
       {route ? (
         <Link className="cursor-pointer" href={route} target="_blank">
           <Icon size="3em" />
@@ -19,8 +19,8 @@ const CardContacts: React.FC<CardProps> = ({ title, subtitle, route, icon: Icon 
       ) : (
         <Icon size="3em" />
       )}
-      <h1 className="mb-6 mt-16 text-xl font-bold">{title}</h1>
-      <h4 className="font-semibold text-gray-500">{subtitle}</h4>
+      <h1 className="mb-6 mt-16 text-xl font-bold text-center ">{title}</h1>
+      <h4 className="font-semibold text-gray-500 text-center">{subtitle}</h4>
     </div>
   );
 };

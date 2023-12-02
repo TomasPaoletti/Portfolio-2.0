@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const NavBarcolor = () => {
   return (
-    <nav className="text-center">
+    <nav className="text-center mb-12 md:mb-0">
       <ul className="flex flex-row gap-10">
         {nav.map((item) => (
           <li

@@ -39,11 +39,11 @@ export const rolesListChatBot = [
 export const rolesListNoCountry = [
   {
     id: 1,
-    text: "Participé en un proyecto para No Country donde se destacó el impacto de la web presentada utilizando React, Firebase y mas tecnologías.",
+    text: "Participé en un proyecto para No Country donde se destacó el impacto de la web presentada.",
   },
   {
     id: 2,
-    text: "Desarrollé mis habilidades blandas trabajando en equipo con 2 desarrolladores y 2 diseñadoras.",
+    text: "Desarrollé mis habilidades blandas trabajando en equipo con 2 desarrolladores y 2 diseñadoras",
   },
   {
     id: 3,
