@@ -3,7 +3,7 @@
 Este es mi portfolio personal, desarrollado con Next.js y TypeScript. Aquí encontrarás información sobre mí, mis proyectos y como contactarme.
 
 ## Empezamos
-1. **Clona el Repositorio:**
+**Clona el Repositorio:**
    ```bash
    git clone https://github.com/tu-usuario/mi-portfolio.git
    cd portfolio-2.0
