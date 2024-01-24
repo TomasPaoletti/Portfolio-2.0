@@ -10,4 +10,4 @@ Este es mi portfolio personal, desarrollado con Next.js y TypeScript. Aquí enco
    npm install
    npm run dev
    ```
-   Abrir [http://localhost:3000](http://localhost:3000) en tu navegador para ver los resultados.
+Abrir [http://localhost:3000](http://localhost:3000) en tu navegador para ver los resultados.
