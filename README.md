@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -35,3 +36,18 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # Portfolio-2.0
+=======
+# Portfolio-2.0 Tomás Paoletti Velado
+
+Este es mi portfolio personal, desarrollado con Next.js y TypeScript. Aquí encontrarás información sobre mí, mis proyectos y como contactarme.
+
+## Empezamos
+**Clona el Repositorio:**
+   ```bash
+   git clone https://github.com/tu-usuario/mi-portfolio.git
+   cd portfolio-2.0
+   npm install
+   npm run dev
+   ```
+   Abrir [http://localhost:3000](http://localhost:3000) en tu navegador para ver los resultados.
+>>>>>>> Stashed changes

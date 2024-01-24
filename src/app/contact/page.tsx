@@ -7,13 +7,13 @@ import Particles from "../components/particles";
 
 const Contact = () => {
   return (
-    <div className="flex h-full w-screen flex-col items-center justify-center md:h-screen">
+    <div className="flex h-screen w-full flex-col items-center justify-center md:h-screen">
       <Particles
         className="animate-fade-in absolute inset-0 -z-10"
         quantity={100}
       />
       <NavBar />
-      <div className="mb-12 grid grid-cols-1 place-items-center justify-center gap-16 md:h-screen md:w-screen md:grid-cols-2 md:gap-0 lg:h-screen lg:w-screen lg:grid-cols-3">
+      <div className="mb-12 mt-24 grid grid-cols-1 place-items-center justify-center gap-16 md:h-screen md:w-full md:grid-cols-2 md:gap-0 lg:h-screen lg:w-full lg:grid-cols-3">
         <CardContacts
           title="TomasPaoletti"
           subtitle="Github"

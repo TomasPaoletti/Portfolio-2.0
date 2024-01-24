@@ -1,52 +1,42 @@
 export const rolesListCheckin = [
   {
     id: 1,
-    text: " Migración de la aplicación nativa, asegurando su compatibilidad multiplataforma.",
+    text: "Migración de la aplicación nativa, asegurando su compatibilidad multiplataforma y la publicación exitosa en App Store y Play Store",
   },
   {
     id: 2,
-    text: "Creé una WebApp con Expo para una experiencia consistente en dispositivos móviles y navegadores web, gestionando su mantenimiento continuo.",
+    text: "Creación de una WebApp con Expo para una experiencia consistente en dispositivos móviles y navegadores web, gestión de mantenimiento continuo",
   },
   {
     id: 3,
-    text: "Migración a Next.js de la plataforma web, optimizando la arquitectura para mejorar eficiencia.",
+    text: "Migración a Next.js del producto interno y la plataforma web, optimización de la arquitectura para mejorar eficiencia",
   },
   {
     id: 4,
-    text: "Generé documentación detallada en Confluence, facilitando la eficiencia del equipo.",
+    text: "Generación de documentación detallada en Confluence, para facilitar la colaboración y eficiencia del equipo",
   },
   {
     id: 5,
-    text: "Aporté propuestas para mejoras visuales y de rendimiento, promoviendo la optimización de la experiencia del usuario.",
+    text: "Propuesta de mejoras visuales y de rendimiento en React, para promover la innovación y optimización de la experiencia del usuario",
   },
 ];
 
-export const rolesListChatBot = [
+export const rolesListLearnLens = [
   {
     id: 1,
-    text: "Desarrollé un proyecto utilizando Vite, Typescript, React y Tailwind.",
+    text: "Participación en la elección de las tecnologías que se implementarán en el producto tanto en Frontend como en Backend y en la estructura en la que se llevará a cabo",
   },
   {
     id: 2,
-    text: "Realicé test unitarios con Jest y React-testing-library.",
+    text: "Creación de un consumidor de texto en Python, desde un archivo (obtenido por S3) o una pagina web. Este consumidor crea un JSON con metadatos y el texto para luego subirlo a S3 y así poder ser utilizado en distintos puntos del producto. Entre otras funcionalidades",
   },
   {
     id: 3,
-    text: "Integré una API para clasificar preguntas ingresadas en el input y brindar respuestas correspondientes, simula una conversación en la que se puede obtener información sobre Ailén.",
-  },
-];
-
-export const rolesListNoCountry = [
-  {
-    id: 1,
-    text: "Participé en un proyecto para No Country donde se destacó el impacto de la web presentada.",
+    text: "Creación de endpoints en Python para la comunicación del Backend y la app en Next.js",
   },
   {
-    id: 2,
-    text: "Desarrollé mis habilidades blandas trabajando en equipo con 2 desarrolladores y 2 diseñadoras",
+    id: 4,
+    text: "Desarrollo de la app con Next.js y TypeScript para un primer MVP con las principales funcionalidades planteadas",
   },
-  {
-    id: 3,
-    text: "Fui responsable de dirigir el equipo, delegando tareas y haciendo presentaciones en cada sprint.",
-  },
+  { id: 5, text: "Creación de la landing page con Next.js y TypeScript" },
 ];
